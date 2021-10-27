@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LPUITabBar",
+        "repositoryURL": "https://github.com/mohamed-habib-jaberi/LPUITabBar.git",
+        "state": {
+          "branch": "main",
+          "revision": "633571f036d479e777227271907a64bd596951d4",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

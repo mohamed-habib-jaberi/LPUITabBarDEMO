@@ -13,6 +13,7 @@
 		88D841C4272987210010A392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D841C2272987210010A392 /* Main.storyboard */; };
 		88D841C6272987230010A392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88D841C5272987230010A392 /* Assets.xcassets */; };
 		88D841C9272987230010A392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D841C7272987230010A392 /* LaunchScreen.storyboard */; };
+		88D841D22729876F0010A392 /* LPUITabBar in Frameworks */ = {isa = PBXBuildFile; productRef = 88D841D12729876F0010A392 /* LPUITabBar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D841D22729876F0010A392 /* LPUITabBar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = LPUITabBarDEMO;
+			packageProductDependencies = (
+				88D841D12729876F0010A392 /* LPUITabBar */,
+			);
 			productName = LPUITabBarDEMO;
 			productReference = 88D841B9272987210010A392 /* LPUITabBarDEMO.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 88D841B0272987210010A392;
+			packageReferences = (
+				88D841D02729876F0010A392 /* XCRemoteSwiftPackageReference "LPUITabBar" */,
+			);
 			productRefGroup = 88D841BA272987210010A392 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -360,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		88D841D02729876F0010A392 /* XCRemoteSwiftPackageReference "LPUITabBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mohamed-habib-jaberi/LPUITabBar.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		88D841D12729876F0010A392 /* LPUITabBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88D841D02729876F0010A392 /* XCRemoteSwiftPackageReference "LPUITabBar" */;
+			productName = LPUITabBar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 88D841B1272987210010A392 /* Project object */;
 }
