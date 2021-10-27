@@ -14,6 +14,13 @@
 		88D841C6272987230010A392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88D841C5272987230010A392 /* Assets.xcassets */; };
 		88D841C9272987230010A392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D841C7272987230010A392 /* LaunchScreen.storyboard */; };
 		88D841D22729876F0010A392 /* LPUITabBar in Frameworks */ = {isa = PBXBuildFile; productRef = 88D841D12729876F0010A392 /* LPUITabBar */; };
+		88D841D4272988730010A392 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D841D3272988730010A392 /* RootViewController.swift */; };
+		88D841D7272989750010A392 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D841D5272989750010A392 /* FriendsViewController.swift */; };
+		88D841D8272989750010A392 /* FriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88D841D6272989750010A392 /* FriendsViewController.xib */; };
+		88D841DB2729898F0010A392 /* RecentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D841D92729898F0010A392 /* RecentsViewController.swift */; };
+		88D841DC2729898F0010A392 /* RecentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88D841DA2729898F0010A392 /* RecentsViewController.xib */; };
+		88D841DF272989BA0010A392 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D841DD272989BA0010A392 /* FavouritesViewController.swift */; };
+		88D841E0272989BA0010A392 /* FavouritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88D841DE272989BA0010A392 /* FavouritesViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +32,13 @@
 		88D841C5272987230010A392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88D841C8272987230010A392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88D841CA272987230010A392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D841D3272988730010A392 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		88D841D5272989750010A392 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		88D841D6272989750010A392 /* FriendsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsViewController.xib; sourceTree = "<group>"; };
+		88D841D92729898F0010A392 /* RecentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsViewController.swift; sourceTree = "<group>"; };
+		88D841DA2729898F0010A392 /* RecentsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentsViewController.xib; sourceTree = "<group>"; };
+		88D841DD272989BA0010A392 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		88D841DE272989BA0010A392 /* FavouritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavouritesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,10 @@
 		88D841B0272987210010A392 = {
 			isa = PBXGroup;
 			children = (
+				88D841D92729898F0010A392 /* RecentsViewController.swift */,
+				88D841DD272989BA0010A392 /* FavouritesViewController.swift */,
+				88D841DE272989BA0010A392 /* FavouritesViewController.xib */,
+				88D841DA2729898F0010A392 /* RecentsViewController.xib */,
 				88D841BB272987210010A392 /* LPUITabBarDEMO */,
 				88D841BA272987210010A392 /* Products */,
 			);
@@ -65,6 +83,9 @@
 				88D841C5272987230010A392 /* Assets.xcassets */,
 				88D841C7272987230010A392 /* LaunchScreen.storyboard */,
 				88D841CA272987230010A392 /* Info.plist */,
+				88D841D3272988730010A392 /* RootViewController.swift */,
+				88D841D5272989750010A392 /* FriendsViewController.swift */,
+				88D841D6272989750010A392 /* FriendsViewController.xib */,
 			);
 			path = LPUITabBarDEMO;
 			sourceTree = "<group>";
@@ -133,6 +154,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D841DC2729898F0010A392 /* RecentsViewController.xib in Resources */,
+				88D841D8272989750010A392 /* FriendsViewController.xib in Resources */,
+				88D841E0272989BA0010A392 /* FavouritesViewController.xib in Resources */,
 				88D841C9272987230010A392 /* LaunchScreen.storyboard in Resources */,
 				88D841C6272987230010A392 /* Assets.xcassets in Resources */,
 				88D841C4272987210010A392 /* Main.storyboard in Resources */,
@@ -147,7 +171,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				88D841C1272987210010A392 /* ViewController.swift in Sources */,
+				88D841D7272989750010A392 /* FriendsViewController.swift in Sources */,
 				88D841BD272987210010A392 /* AppDelegate.swift in Sources */,
+				88D841DB2729898F0010A392 /* RecentsViewController.swift in Sources */,
+				88D841D4272988730010A392 /* RootViewController.swift in Sources */,
+				88D841DF272989BA0010A392 /* FavouritesViewController.swift in Sources */,
 				88D841BF272987210010A392 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
