@@ -33,8 +33,13 @@ class ViewController: UIViewController {
         controller2.parentNavigationController = self.navigationController
         controllerArray.append(controller2)
 
+        let controller3 : FriendsViewController = FriendsViewController(nibName: "FriendsViewController", bundle: nil)
+        controller3.title = "Friends"
+        controller3.parentNavigationController = self.navigationController
+        controllerArray.append(controller3)
+
         // Customize menu (Optional)
-        let parameters: [CAPSPageMenuOption] = [
+        let parameters: [LPUITabBarPageMenuOption] = [
             .menuItemSeparatorWidth(4.3),
             .scrollMenuBackgroundColor(UIColor.white),
             .viewBackgroundColor(UIColor(red: 247.0/255.0, green: 247.0/255.0, blue: 247.0/255.0, alpha: 1.0)),

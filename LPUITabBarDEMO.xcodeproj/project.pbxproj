@@ -56,10 +56,6 @@
 		88D841B0272987210010A392 = {
 			isa = PBXGroup;
 			children = (
-				88D841D92729898F0010A392 /* RecentsViewController.swift */,
-				88D841DD272989BA0010A392 /* FavouritesViewController.swift */,
-				88D841DE272989BA0010A392 /* FavouritesViewController.xib */,
-				88D841DA2729898F0010A392 /* RecentsViewController.xib */,
 				88D841BB272987210010A392 /* LPUITabBarDEMO */,
 				88D841BA272987210010A392 /* Products */,
 			);
@@ -76,6 +72,7 @@
 		88D841BB272987210010A392 /* LPUITabBarDEMO */ = {
 			isa = PBXGroup;
 			children = (
+				88D841E127298D4F0010A392 /* Views */,
 				88D841BC272987210010A392 /* AppDelegate.swift */,
 				88D841BE272987210010A392 /* SceneDelegate.swift */,
 				88D841C0272987210010A392 /* ViewController.swift */,
@@ -83,11 +80,22 @@
 				88D841C5272987230010A392 /* Assets.xcassets */,
 				88D841C7272987230010A392 /* LaunchScreen.storyboard */,
 				88D841CA272987230010A392 /* Info.plist */,
+			);
+			path = LPUITabBarDEMO;
+			sourceTree = "<group>";
+		};
+		88D841E127298D4F0010A392 /* Views */ = {
+			isa = PBXGroup;
+			children = (
 				88D841D3272988730010A392 /* RootViewController.swift */,
+				88D841D92729898F0010A392 /* RecentsViewController.swift */,
+				88D841DD272989BA0010A392 /* FavouritesViewController.swift */,
+				88D841DE272989BA0010A392 /* FavouritesViewController.xib */,
+				88D841DA2729898F0010A392 /* RecentsViewController.xib */,
 				88D841D5272989750010A392 /* FriendsViewController.swift */,
 				88D841D6272989750010A392 /* FriendsViewController.xib */,
 			);
-			path = LPUITabBarDEMO;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
